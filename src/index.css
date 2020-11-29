@@ -137,5 +137,29 @@ footer{
     bottom: 10px;
     right: 50%;
     font-weight: 900;
+    margin-top: auto;
+    align-items: center;
+   
     
+}
+@media (max-width: 768px){
+    .main_note{
+        width:300px;
+        padding: 15px 5px 5px 5px;
+        margin:  10px auto;
+    }
+    
+
+    .MuiButton-root{
+        width:30px;
+        height: 50px;
+        position:absolute;
+        bottom : -28px;
+        left:175px;
+        cursor:pointer;
+        background-color:#fff !important;
+        box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.5);
+        border-radius: 50% !important;
+    }
+
 }
